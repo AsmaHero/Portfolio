@@ -1,0 +1,258 @@
+        @charset 'UTF-8';
+        /* importing google fonts to be recognized */
+
+        @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cinzel|Hind|Reem+Kufi&display=swap');
+        /* making images responsive */
+
+        * {
+            @media (min-width: 500px) {}
+        }
+        /* make the main container for every thing**/
+
+        .container {
+            position: relative;
+            padding-left: 15%;
+            padding-bottom: 30%;
+            color: white;
+            float: right;
+        }
+        /* make the header section**/
+
+        header {
+            position: relative;
+            padding: 2%;
+            font-size: 30px;
+        }
+        /* make the main hr**/
+
+        hr {
+            position: absolute;
+            border-top: 0.2em solid #7d97ad;
+            margin-right: auto;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        /* make the division hr**/
+
+        .sectionhr {
+            position: relative;
+            margin-top: 0.7em;
+            border-top: 0.1em solid #bcbbbb;
+            width: 100%;
+            bottom: 0;
+            opacity: 0.5;
+        }
+        /* make the style of logo**/
+
+        #myLogo {
+            position: absolute;
+            height: 70px;
+            width: 70px;
+            left: 0;
+            top: 0;
+            vertical-align: top;
+            max-width: inherit;
+        }
+        /* make the style of banner image**/
+
+        .containerBanner {
+            width: 100%;
+            height: 480px;
+            background-image: url("images/programmer.jpg");
+            background-repeat: no-repeat;
+            position: relative;
+            display: block;
+            background-size: cover;
+        }
+        /* make the style of title with its relevant sub**/
+
+        div .titleSubR {
+            position: relative;
+            width: 100%;
+            vertical-align: top;
+            text-align: right;
+            margin-bottom: 0px;
+            right: 0;
+            max-width: inherit;
+        }
+        /* setting the all p element */
+
+        p {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            word-wrap: break-word;
+            font-family: 'Bebas Neue', cursive;
+            line-height: 1px;
+            ;
+            color: #2d3c49;
+            text-align: justify;
+            text-align: right;
+            font-size: 20px;
+        }
+        /* make the style of heading font to be bold as emphasize**/
+
+        .heading {
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-top: 0.5em;
+            color: #4AACEC;
+        }
+        /* make the style of fonts h1,h2,h3,h4**/
+
+        h1 {
+            /* font-weight: lighter; */
+            font-family: 'Cinzel', serif;
+            letter-spacing: 1px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            font-size: 0.7em;
+            color: gray;
+            word-wrap: break-word;
+            flex-wrap: wrap;
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 200;
+            font-size: 35px;
+        }
+
+        h3 {
+            min-height: 1em;
+            word-wrap: break-word;
+        }
+
+        h4 {
+            font-family: 'Reem Kufi', sans-serif;
+            padding-left: 0em;
+            color: skyblue;
+            font-size: 2em;
+        }
+        /* make the style of aside on left with its image icons **/
+
+        aside {
+            position: absolute;
+            float: left;
+            width: 15%;
+            margin-left: 2%;
+            margin-right: 2%;
+            height: 100%;
+            margin-top: 15%;
+        }
+
+        .img-circle {
+            width: 100%;
+        }
+
+        .sidebar {
+            display: grid;
+            height: 20%;
+            padding-top: 20px;
+        }
+        /* this is style for the Featured work section **/
+
+        .feature-work {
+            padding-bottom: 0.5em;
+            margin-bottom: 0em;
+        }
+        /* this is style for the photos grid section **/
+
+        .feature-images {
+            margin-top: 0em;
+        }
+
+        #flexbox {
+            display: flex;
+            column-gap: 25px;
+        }
+
+        #flexbox > div {
+            flex: 1 1 0px;
+            text-align: center;
+            border: 2px solid white;
+        }
+        /* this is style for making photos in grid responsive by setting block and max width **/
+
+        img {
+            max-width: 500px;
+        }
+
+        .illustration img {
+            width: 100%;
+            display: block;
+            height: 50%;
+        }
+        /* this is style for all links text and images **/
+
+        a {
+            font-family: 'Hind', sans-serif;
+            position: absolute;
+            color: #6B889A;
+            margin-left: 0;
+            color: #3B95C6;
+            margin-top: 5px;
+            width: 50%;
+            margin-bottom: 5px;
+            font-size: 10px;
+            font-weight: normal;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #1B75A6 !important;
+        }
+
+        a img {
+            position: relative;
+            text-align: justify;
+            margin-bottom: 5%;
+            width: 50%;
+        }
+        /* style for footer section with its paragraph*/
+
+        .footer {
+            font-family: 'Bebas Neue', cursive;
+            position: fixed;
+            bottom: 0;
+            margin-top: 0px;
+            padding-left: 24%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .footerP {
+            font-family: 'Cinzel', serif;
+        }
+        /* style for whole body section as standard*/
+
+        body {
+            display: block;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 0.1em;
+            padding-right: 1em;
+        }
+        /* style for section */
+
+        section {
+            margin-bottom: 1em;
+        }
+        /* style for any article */
+
+        article {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            float: middle;
+            justify-content: center;
+            padding-top: 2%;
+            padding-bottom: 15%;
+        }
