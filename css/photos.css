@@ -212,7 +212,8 @@
             position: relative;
             text-align: justify;
             margin-bottom: 5%;
-            width: 50%;
+            width: 70px;
+            height: 70px;
         }
         /* style for footer section with its paragraph*/
 
